@@ -1,0 +1,13 @@
+Tweet Prize Giver 
+ryan@ryanstewart.net
+http://blog.digitalbackcountry.com
+------------------------------------
+
+I'm in the process of learning PHP and this is one of the
+first experiments. 
+
+As an evangelist for Adobe, I give away a lot of stuff when I
+speak. I wrote this so I can specify a search term and a "start"
+time and have it pull all of the tweets after that start time 
+with the search term. Then I have it generate a random number 
+which selects a specific tweet that will get the prize.
