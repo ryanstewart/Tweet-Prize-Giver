@@ -34,7 +34,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Untitled Document</title>
+<title>Ryan's Tweet Prize Giver</title>
 </head>
 <body>
 <pre>
@@ -198,9 +198,10 @@ OTHER DEALINGS IN THE SOFTWARE.
 	}
 ?>
 </pre>
+<p>Instructions: Type in your search term and then the start date and time of the meeting (in UTC). This will search Twitter for all of the tweets with your search term that fall after that date/time and then picks one of them at random.</p>
 	<form action="index.php" method="POST">
 		<p>Search String: <input type="text" name="search" maxlength="250" value="<?php print $search_term; ?>" /></p>
-        <p>Start Date/Time (mm dd yy hh mm): <input type="text" name="month" maxlength="2" value="<?php print $month ?>" /> <input type="text" name="day" maxlength="2" value="<?php print $day ?>" /> <input type="text" name="year" maxlength="4" value="<?php print $year ?>" /> <input type="text" name="hour" maxlength="2" value="<?php print $hour ?>" /> <input type="text" name="minute" maxlength="2" value="<?php print $minute ?>" /></p>
+        <p>Start Date/Time (mm dd yyyy hh mm): <input type="text" name="month" maxlength="2" value="<?php print $month ?>" /> <input type="text" name="day" maxlength="2" value="<?php print $day ?>" /> <input type="text" name="year" maxlength="4" value="<?php print $year ?>" /> <input type="text" name="hour" maxlength="2" value="<?php print $hour ?>" /> <input type="text" name="minute" maxlength="2" value="<?php print $minute ?>" /></p>
             
         <p><input type="submit" value="Submit!" /></p>
         <input type="hidden" name="submitted" value="true" />
